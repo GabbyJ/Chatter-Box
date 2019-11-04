@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Chatter Box</title>
+    <!--CSS-->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main>
+        <ol id="history">
+            <li class="me">GJ says: hey CM, what's up?</li>
+            <li class="you">CM says: just chillin, hbu</li>
+            <li class="me">GJ says: same. wanna hang</li>
+            <li class="you">CM says: definitely! the mall?</li>
+            <li class="me">GJ says: yeah! there's a new store there we should check out</li>
+            <li class="you">CM says: heading over to you now. See you in 15</li>
+        </ol>
+        <form>
+            <input id="initials" placeholder="GJ">
+            <input id="message" placeholder="Start typing...">
+            <button>Send</button>
+        </form>
+    </main>
+    
+<!--jQuery-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<!--Socket.io-->
+<script src="/socket.io/socket.io.js"></script>
+<!--JS-->
+<script src="index.js"></script>
+</body>
+</html>

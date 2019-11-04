@@ -1,0 +1,67 @@
+body {
+    background-color: antiquewhite;
+    color: #303030;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+}
+
+main {
+    background-color: #f0f0f0;
+    margin: 20px auto;
+    max-width: 500px;
+    padding: 20px;
+}
+
+li {
+    list-style: none;
+    margin-left: -30px;
+    padding: 10px 5px;
+}
+
+.me {
+    border-radius: 5px;
+    background-color: lightblue;
+}
+
+/* .you {
+    background-color: lightcoral;
+    border-radius: 5px;
+} */
+
+input {
+    height: 1.3rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    padding: 3px;
+    margin-bottom: 3px;
+}
+
+#initials::placeholder{
+    color: black;
+}
+
+#initials {
+    width: 10%;
+    text-align: center;
+}
+
+#message {
+    width: 65%;
+}
+
+button {
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    background-color: darkblue;
+    border-radius: 5px;
+    width: 15%;
+    border-style: none;
+}
+
+form {
+    background-color: lightskyblue;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+}
